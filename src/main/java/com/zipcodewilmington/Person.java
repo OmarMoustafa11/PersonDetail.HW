@@ -24,7 +24,7 @@ public class Person {
     public String toString() {
         return new StringBuilder()
                 .append("\nMy first name is " + firstName)
-                .append("\nMy last name is " + lastName)
+                .append(" My last name is " + lastName)
                 .toString();
     }
 }
